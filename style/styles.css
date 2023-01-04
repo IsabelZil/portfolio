@@ -17,7 +17,7 @@ h1 {
   color: white;
   text-align: center;
   text-transform: lowercase;
-}
+} 
 button {
   padding: 100px;
   border: none;
@@ -36,6 +36,12 @@ li {
   line-height: 2;
   padding: 10px;
   text-align: center;
+}
+.navigation-link-navy a {
+  color:var(--navy-color);
+}
+.navigation-link-cerulean a {
+  color:var(--cerulean-color);
 }
 .link-light {
   text-decoration: none;
