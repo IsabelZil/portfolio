@@ -1,0 +1,74 @@
+body {
+  background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
+  display: block;
+  padding: 30px 120px;
+  font-family: 'Quicksand', sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+}
+h2 {
+  color: white;
+  text-align: start;
+  padding: 20px;
+  border: blue 2px solid;
+  background: linear-gradient(red, blue);
+}
+button {
+  padding: 100px;
+  border: none;
+  background-size: cover;
+  border-radius: 100%;
+}
+button:hover {
+  opacity: 0.6;
+  transition: 0.07s;
+}
+li{
+  list-style-type: none;
+  display: inline;
+  color: white;
+  line-height: 2;
+  padding: 10px;
+  text-align:center;
+}
+.buttons-div {
+  padding: 10px 10px;
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.about-page {
+  background-image: linear-gradient(rgba(0, 0, 128), rgba(0, 0, 128, 0.4)),
+    url(/images/men-running.jpg);
+}
+.landing-page {
+  background-image: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4)),
+    url(/images/bus.jpg);
+}
+.weather-page {
+  background-image: linear-gradient(rgba(13, 180, 185), rgba(13, 180, 185, 0.4)),
+    url(/images/weather-app.png);
+}
+.contact-me {
+  background: rgba(255, 165, 0, 0.8);
+}
+.column-right {
+  order:2;
+  background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.column-left{
+  order:1;
+}
+@media (max-width: 768px){
+.column-right{
+ order: 1;}
+.column-left{
+  order:2;
+}}
