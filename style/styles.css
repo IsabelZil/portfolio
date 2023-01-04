@@ -18,13 +18,6 @@ h1 {
   text-align: center;
   text-transform: lowercase;
 }
-h2 {
-  color: white;
-  text-align: start;
-  padding: 20px;
-  border: blue 2px solid;
-  background: linear-gradient(red, blue);
-}
 button {
   padding: 100px;
   border: none;
