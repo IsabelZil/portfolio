@@ -1,8 +1,17 @@
+:root {
+  --navy-color: linear-gradient(rgba(0, 0, 128), rgba(0, 0, 128, 0.4));
+  --orange-color: rgba(255, 165, 0, 0.8);
+  --cerulean-color: linear-gradient(
+    rgba(13, 180, 185),
+    rgba(13, 180, 185, 0.4)
+  );
+  --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
+}
 body {
   background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
   display: block;
   padding: 30px 120px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
   color: white;
@@ -26,20 +35,19 @@ button {
 button:hover {
   opacity: 0.6;
   transition: 0.07s;
-
 }
-li{
+li {
   list-style-type: none;
   display: inline;
   color: white;
   line-height: 2;
   padding: 10px;
-  text-align:center;
+  text-align: center;
 }
-.link-light{
+.link-light {
   text-decoration: none;
 }
-.link-light:hover{
+.link-light:hover {
   opacity: 0.6;
   transition: 0.07s;
 }
@@ -52,32 +60,34 @@ li{
   justify-content: center;
 }
 .about-page {
-  background-image: linear-gradient(rgba(0, 0, 128), rgba(0, 0, 128, 0.4)),
+  background-image: var(--navy-color),
     url(/images/men-running.jpg);
 }
 .landing-page {
-  background-image: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4)),
+  background-image: var(--lime-color),
     url(/images/bus.jpg);
 }
 .weather-page {
-  background-image: linear-gradient(rgba(13, 180, 185), rgba(13, 180, 185, 0.4)),
+  background-image: var(--cerulean-color),
     url(/images/weather-app.png);
 }
 .contact-me {
-  background: rgba(255, 165, 0, 0.8);
+  background: var(--orange-color);
 }
 .column-right {
-  order:2;
+  order: 2;
   background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
   opacity: 0.8;
   border-radius: 10px;
 }
-.column-left{
-  order:1;
+.column-left {
+  order: 1;
 }
-@media (max-width: 768px){
-.column-right{
- order: 1;}
-.column-left{
-  order:2;
-}}
+@media (max-width: 768px) {
+  .column-right {
+    order: 1;
+  }
+  .column-left {
+    order: 2;
+  }
+}
