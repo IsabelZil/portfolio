@@ -37,12 +37,6 @@ li {
   padding: 10px;
   text-align: center;
 }
-.navigation-link-navy a {
-  color:var(--navy-color);
-}
-.navigation-link-cerulean a {
-  color:var(--cerulean-color);
-}
 .link-light {
   text-decoration: none;
 }
