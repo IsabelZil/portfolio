@@ -34,6 +34,13 @@ li{
   padding: 10px;
   text-align:center;
 }
+.link-light{
+  text-decoration: none;
+}
+.link-light:hover{
+  opacity: 0.6;
+  transition: 0.07s;
+}
 .buttons-div {
   padding: 10px 10px;
 }
