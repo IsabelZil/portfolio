@@ -14,9 +14,15 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 h1 {
+  font-size:60px;
   color: white;
   text-align: center;
   text-transform: lowercase;
+}
+h2{
+  font-size: 20px;
+  color: white;
+  opacity: 0.5;
 }
 button {
   padding: 100px;
@@ -28,6 +34,9 @@ button {
 button:hover {
   opacity: 0.6;
   transition: 0.07s;
+}
+.emailme{
+  font-size: 15px;
 }
 li {
   list-style-type: none;
