@@ -17,7 +17,7 @@ h1 {
   color: white;
   text-align: center;
   text-transform: lowercase;
-} 
+}
 button {
   padding: 100px;
   border: none;
@@ -37,8 +37,34 @@ li {
   padding: 10px;
   text-align: center;
 }
-.about-column{
-  width:300px;
+.about-column {
+  width: 300px;
+}
+.about-page {
+  background-image: var(--navy-color), url(/images/men-running.jpg);
+}
+.buttons-div {
+  padding: 10px 10px;
+}
+.column-left {
+  order: 1;
+}
+.column-right {
+  order: 2;
+  background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.contact-me {
+  background: var(--orange-color);
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.landing-page {
+  background-image: var(--lime-color), url(/images/bus.jpg);
 }
 .link-light {
   text-decoration: none;
@@ -47,37 +73,8 @@ li {
   opacity: 0.6;
   transition: 0.07s;
 }
-.buttons-div {
-  padding: 10px 10px;
-}
-.container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.about-page {
-  background-image: var(--navy-color),
-    url(/images/men-running.jpg);
-}
-.landing-page {
-  background-image: var(--lime-color),
-    url(/images/bus.jpg);
-}
 .weather-page {
-  background-image: var(--cerulean-color),
-    url(/images/weather-app.png);
-}
-.contact-me {
-  background: var(--orange-color);
-}
-.column-right {
-  order: 2;
-  background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
-  opacity: 0.8;
-  border-radius: 10px;
-}
-.column-left {
-  order: 1;
+  background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
 @media (max-width: 768px) {
   .column-right {
