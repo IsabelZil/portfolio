@@ -37,8 +37,11 @@ li {
   padding: 10px;
   text-align: center;
 }
-.about-column {
-  width: 300px;
+footer{
+  font-size: 18px;
+}
+.about-column-right p{
+  font-size: 18px;
 }
 .about-page {
   background-image: var(--navy-color), url(/images/men-running.jpg);
