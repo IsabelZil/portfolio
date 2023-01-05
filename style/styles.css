@@ -37,6 +37,9 @@ li {
   padding: 10px;
   text-align: center;
 }
+.about-column{
+  width:300px;
+}
 .link-light {
   text-decoration: none;
 }
