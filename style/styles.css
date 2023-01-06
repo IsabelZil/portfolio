@@ -1,5 +1,5 @@
 :root {
-  --navy-color: linear-gradient(rgba(0, 0, 128), rgba(0, 0, 128, 0.4));
+  --navy-color: linear-gradient(rgb(60, 60, 247), rgba(0, 0, 128, 0.4));
   --orange-color: rgba(255, 165, 0, 0.8);
   --cerulean-color: linear-gradient(
     rgba(13, 180, 185),
@@ -8,12 +8,12 @@
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
   --background-color: rgba(1, 1, 1, 0.4);
 }
-a:link{
+a:link {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   opacity: 0.6;
-  transition: 0.07s
+  transition: 0.07s;
 }
 body {
   background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
@@ -92,8 +92,8 @@ p {
 .landing-page {
   background-image: var(--lime-color), url(/images/bus.jpg);
 }
-.link-landing-page{
-  color:178, 222, 39;
+.link-landing-page {
+  color: 178, 222, 39;
 }
 .weather-page {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
