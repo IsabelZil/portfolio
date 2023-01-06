@@ -99,9 +99,6 @@ p {
 .landing-page {
   background-image: var(--lime-color), url(/images/bus.jpg);
 }
-.link-landing-page {
-  color: 178, 222, 39;
-}
 .weather-page {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
