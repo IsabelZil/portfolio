@@ -74,6 +74,10 @@ p {
   font-size: 15px;
   background-color: var(--background-color);
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
 .index-buttons-div {
   padding: 10px 10px;
 }
@@ -82,12 +86,14 @@ p {
 }
 .index-column-left {
   order: 1;
+  padding: 0 50px
 }
 .index-column-right {
   order: 2;
   background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
   opacity: 0.8;
   border-radius: 10px;
+  padding: 0 50px;
 }
 .landing-page {
   background-image: var(--lime-color), url(/images/bus.jpg);
@@ -98,7 +104,7 @@ p {
 .weather-page {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .about-column-left h1 {
     text-align: center;
   }
