@@ -6,6 +6,7 @@
     rgba(13, 180, 185, 0.4)
   );
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
+  --background-color: rgba(1, 1, 1, 0.4);
 }
 body {
   background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
@@ -14,12 +15,12 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 h1 {
-  font-size:60px;
+  font-size: 60px;
   color: white;
   text-align: center;
   text-transform: lowercase;
 }
-h2{
+h2 {
   font-size: 20px;
   color: white;
   opacity: 0.5;
@@ -35,9 +36,6 @@ button:hover {
   opacity: 0.6;
   transition: 0.07s;
 }
-.emailme{
-  font-size: 15px;
-}
 li {
   list-style-type: none;
   display: inline;
@@ -46,34 +44,48 @@ li {
   padding: 10px;
   text-align: center;
 }
-footer{
+footer {
   font-size: 18px;
 }
-.about-column-right p{
+p {
+  line-height: 30px;
+}
+.about-column-left h1 {
+  text-align: left;
+}
+.about-column-left h2 {
+  text-align: left;
+}
+.about-column-right p {
   font-size: 18px;
+  text-align: left;
 }
 .about-page {
   background-image: var(--navy-color), url(/images/men-running.jpg);
 }
-.buttons-div {
+.container-about {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.about-emailme {
+  font-size: 15px;
+  background-color: var(--background-color);
+}
+.index-buttons-div {
   padding: 10px 10px;
 }
-.column-left {
+.index-contact-me {
+  background: var(--orange-color);
+}
+.index-column-left {
   order: 1;
 }
-.column-right {
+.index-column-right {
   order: 2;
   background: conic-gradient(from 90deg, rgba(141, 125, 125, 0.637), black);
   opacity: 0.8;
   border-radius: 10px;
-}
-.contact-me {
-  background: var(--orange-color);
-}
-.container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
 .landing-page {
   background-image: var(--lime-color), url(/images/bus.jpg);
@@ -89,10 +101,19 @@ footer{
   background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
 @media (max-width: 768px) {
-  .column-right {
+  .about-column-left h1 {
+    text-align: center;
+  }
+  .about-column-left h2 {
+    text-align: center;
+  }
+  .about-column-right p {
+    text-align: center;
+  }
+  .index-column-right {
     order: 1;
   }
-  .column-left {
+  .index-column-left {
     order: 2;
   }
 }
