@@ -8,6 +8,13 @@
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
   --background-color: rgba(1, 1, 1, 0.4);
 }
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.6;
+  transition: 0.07s
+}
 body {
   background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
   display: block;
@@ -63,11 +70,6 @@ p {
 .about-page {
   background-image: var(--navy-color), url(/images/men-running.jpg);
 }
-.container-about {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
 .about-emailme {
   font-size: 15px;
   background-color: var(--background-color);
@@ -90,12 +92,8 @@ p {
 .landing-page {
   background-image: var(--lime-color), url(/images/bus.jpg);
 }
-.link-light {
-  text-decoration: none;
-}
-.link-light:hover {
-  opacity: 0.6;
-  transition: 0.07s;
+.link-landing-page{
+  color:178, 222, 39;
 }
 .weather-page {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
