@@ -6,7 +6,6 @@
     rgba(13, 180, 185, 0.4)
   );
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
-  --background-color: rgba(1, 1, 1, 0.4);
 }
 a:link {
   text-decoration: none;
@@ -72,7 +71,9 @@ p {
 }
 .about-emailme {
   font-size: 15px;
-  background-color: var(--background-color);
+  background-color: var(--orange-color);
+  border-radius: 20px;
+  padding: 10px 15px;
 }
 .container {
   display: flex;
@@ -86,7 +87,7 @@ p {
 }
 .index-column-left {
   order: 1;
-  padding: 0 50px
+  padding: 0 50px;
 }
 .index-column-right {
   order: 2;
