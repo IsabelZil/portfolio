@@ -75,7 +75,7 @@ p {
   border-radius: 20px;
   padding: 10px 15px;
 }
-.container {
+.container-content {
   display: flex;
   justify-content: center;
 }
@@ -117,5 +117,10 @@ p {
   }
   .index-column-left {
     order: 2;
+  }
+  .about-emailme{
+    display:flex;
+    justify-content: center;
+    margin: 0px;
   }
 }
