@@ -59,7 +59,6 @@ p {
 .about-column-left{
   padding: 40px;
 }
-
 .about-column-left h1 {
   text-align: left;
 }
@@ -114,14 +113,9 @@ p {
     padding-top: 0;
     padding-bottom: 10px;
   }
-  .about-column-left h1 {
-    text-align: center;
-  }
-  .about-column-left h2 {
-    text-align: center;
-  }
-  .about-column-right p {
-    text-align: center;
+  .about-column-left{
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   .index-column-right {
     order: 1;
