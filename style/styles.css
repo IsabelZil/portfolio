@@ -81,7 +81,7 @@ p {
   border-radius: 20px;
   padding: 10px 15px;
 }
-.container-content {
+.container {
   display: flex;
   justify-content: center;
 }
