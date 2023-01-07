@@ -56,11 +56,18 @@ footer {
 p {
   line-height: 30px;
 }
+.about-column-left{
+  padding: 40px;
+}
+
 .about-column-left h1 {
   text-align: left;
 }
 .about-column-left h2 {
   text-align: left;
+}
+.about-column-right{
+  padding: 40px;
 }
 .about-column-right p {
   font-size: 18px;
@@ -103,6 +110,10 @@ p {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
 @media (max-width: 992px) {
+  .about-column-right{
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
   .about-column-left h1 {
     text-align: center;
   }
@@ -121,6 +132,6 @@ p {
   .about-emailme{
     display:flex;
     justify-content: center;
-    margin: 0px;
+    margin: 0px 150px;
+    font-size: 12px;
   }
-}
