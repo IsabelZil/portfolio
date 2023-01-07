@@ -75,7 +75,7 @@ p {
 .about-page {
   background-image: var(--navy-color), url(/images/men-running.jpg);
 }
-.about-emailme {
+.about-emailme a{
   font-size: 15px;
   background-color: var(--orange-color);
   border-radius: 20px;
@@ -126,6 +126,6 @@ p {
   .about-emailme{
     display:flex;
     justify-content: center;
-    margin: 0px 150px;
+    margin: 0px 15px;
     font-size: 12px;
   }
