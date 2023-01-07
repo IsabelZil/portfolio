@@ -6,6 +6,7 @@
     rgba(13, 180, 185, 0.4)
   );
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
+
 }
 a:link {
   text-decoration: none;
@@ -19,6 +20,7 @@ body {
   display: block;
   padding: 30px 120px;
   font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
 }
 h1 {
   font-size: 60px;
@@ -40,7 +42,7 @@ button {
 }
 button:hover {
   opacity: 0.6;
-  transition: 0.07s;
+ 
 }
 li {
   list-style-type: none;
@@ -70,9 +72,12 @@ p {
   background-color: var(--orange-color);
   border-radius: 20px;
   padding: 10px 15px;
+  box-shadow: 8px 4px 4px rgb(53, 42, 16);
+  cursor: grab;
+  transition: all 200ms ease-in-out;        
 }
 .body-about-page{
-  padding: 0px 0px 100px;
+  padding: 0px;
 }
 .container-content {
   display: flex;
