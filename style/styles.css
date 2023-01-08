@@ -25,12 +25,14 @@ h2 {
   color: white;
   opacity: 0.5;
   text-align: right;
+  text-transform: lowercase;
 }
 h3 {
   font-size: 35px;
   opacity: 0.5;
   color:white;
   text-align:right;
+  text-transform: lowercase;
 }
 a:link {
   text-decoration: none;
