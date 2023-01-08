@@ -31,6 +31,9 @@ h2 {
   color: white;
   opacity: 0.5;
 }
+h3 {
+  font-size: 30px;
+}
 button {
   padding: 100px;
   border: none;
@@ -106,6 +109,9 @@ p {
 @media (max-width: 992px) {
   footer {
     margin-bottom: 15px;
+  }
+  img {
+    width: 300px;
   }
   .about-column-right {
     padding-top: 0;
