@@ -64,7 +64,7 @@ p {
   font-size: 18px;
 }
 .about-page {
-  background-image: var(--navy-color), url(/images/men-running.jpg);
+  background-image: var(--navy-color), url(/images/men-running.png);
 }
 .about-emailme a {
   font-size: 18px;
@@ -103,7 +103,7 @@ p {
   text-align: center;
 }
 .landing-page {
-  background-image: var(--lime-color), url(/images/bus.jpg);
+  background-image: var(--lime-color), url(/images/bus.png);
 }
 .weather-page {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
