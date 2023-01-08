@@ -1,5 +1,5 @@
 :root {
-  --navy-color: linear-gradient(rgb(60, 60, 247), rgba(0, 0, 128, 0.4));
+  --navy-color: linear-gradient(rgb(150, 150, 250), rgba(0, 0, 128, 0.4));
   --orange-color: rgba(255, 165, 0, 0.8);
   --cerulean-color: linear-gradient(
     rgba(13, 180, 185),
