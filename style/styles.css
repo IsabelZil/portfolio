@@ -6,13 +6,14 @@
     rgba(13, 180, 185, 0.4)
   );
   --lime-color: linear-gradient(rgba(178, 222, 39), rgba(178, 222, 39, 0.4));
+  --transitions: all 200ms ease-in-out;
 }
 a:link {
   text-decoration: none;
+  transition: var(--transitions);
 }
 a:hover {
   opacity: 0.6;
-  transition: 0.07s;
 }
 body {
   background: conic-gradient(from 180deg, rgba(61, 51, 51, 0.637), black);
@@ -40,6 +41,7 @@ button {
   background-size: cover;
   border-radius: 100%;
   font-weight: bold;
+  transition: var(--transitions);
 }
 button:hover {
   opacity: 0.6;
@@ -71,7 +73,6 @@ p {
   padding: 10px 15px;
   box-shadow: 8px 4px 4px rgb(53, 42, 16);
   cursor: grab;
-  transition: all 200ms ease-in-out;
 }
 .body-noindex-page {
   padding: 0px;
