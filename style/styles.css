@@ -121,6 +121,7 @@ p {
   background-image: var(--cerulean-color), url(/images/weather-app.png);
 }
 @media (max-width: 992px) {
+  h2{text-align: center;}
   h3{
     text-align:left;
   }
