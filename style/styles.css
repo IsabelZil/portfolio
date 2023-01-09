@@ -134,10 +134,11 @@ p {
     text-align: center;
   }
   h3 {
+    font-size: 25px;
     text-align: left;
   }
   img {
-    display: flex;
+    width: 300px;
   }
   .index-column-right {
     order: 1;
