@@ -136,8 +136,8 @@ p {
   h3 {
     text-align: left;
   }
-  .img {
-    width: 300px;
+  img {
+    display: flex;
   }
   .index-column-right {
     order: 1;
