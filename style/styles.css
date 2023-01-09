@@ -78,7 +78,7 @@ p {
 .about-column-right p {
   font-size: 18px;
 }
-.about-page {
+.other-stuff-page {
   background-image: var(--navy-color), url(/images/men-running.png);
 }
 .about-emailme a {
