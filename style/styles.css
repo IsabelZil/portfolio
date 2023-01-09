@@ -94,7 +94,6 @@ p {
   border-radius: 20px;
   padding: 10px 15px;
   box-shadow: 8px 4px 4px rgb(53, 42, 16);
-  cursor: grab;
 }
 .body-noindex-page {
   padding: 0px;
@@ -120,7 +119,7 @@ p {
   border-radius: 10px;
   padding: 0 50px;
 }
-.index-page-h1 {
+.index-page-h2 {
   text-align: center;
 }
 .landing-page {
