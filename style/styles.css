@@ -21,29 +21,30 @@ body {
 }
 h1 {
   font-size: 60px;
-  color: white;
-  text-transform: lowercase;
 }
 h2 {
   font-size: 20px;
-  color: white;
-  opacity: 0.5;
-  text-align: right;
-  text-transform: lowercase;
 }
 h3 {
   font-size: 35px;
-  opacity: 0.5;
+}
+h1,
+h2,
+h3 {
   color: white;
-  text-align: right;
   text-transform: lowercase;
+}
+h2,
+h3 {
+  opacity: 0.5;
+  text-align: right;
 }
 a:link {
   text-decoration: none;
   transition: var(--transitions);
   cursor: grab;
 }
-a:hover {
+a:hover, button:hover {
   opacity: 0.6;
 }
 button {
@@ -54,9 +55,7 @@ button {
   font-weight: bold;
   transition: var(--transitions);
 }
-button:hover {
-  opacity: 0.6;
-}
+
 footer li a {
   font-size: 30px;
   color: white;
